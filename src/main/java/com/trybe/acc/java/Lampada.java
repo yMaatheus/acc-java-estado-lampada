@@ -1,13 +1,18 @@
 package com.trybe.acc.java;
 
+/**
+ * Class Lampada.
+ *
+ */
 public class Lampada {
 
-	public static void main(String[] args) {
-			// Seu código aqui
-						
-			// Imprime a saída no console. OBS: descomente a próxima linha
-			//System.out.println("A lampada ligada: " + isLigada + "!");
+  /**
+   * Initial Method.
+   */
+  public static void main(String[] args) {
+    boolean isLigada = true;
 
-	}
+    System.out.println("A lampada ligada: " + isLigada + "!");
+  }
 
 }
